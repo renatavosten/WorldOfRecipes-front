@@ -3,7 +3,7 @@ import $router from '@/router';
 
 // instanca axios-a 
 let Service = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: 'https://git.heroku.com/world--of--recipes.git',
     timeout: 10000
 });
 
